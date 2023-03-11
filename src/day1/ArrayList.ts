@@ -1,6 +1,6 @@
 export default class ArrayList<T> {
     public length: number;
-
+    private cap: number;
     
 
     constructor() {
